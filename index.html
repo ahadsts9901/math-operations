@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <title>Math Operations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <!-- icons cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"></link>
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="main.css"></link>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#5d68ba] flex flex-col font-['Poppins'] font-bold width-[100%] p-[1em] gap-[1em] h-screen">
+    <h1 class="width-[100%] text-white text-center text-[2em]">Basic Math Operations</h1>
+    <input type="number" id="input" placeholder="Enter A Number..." class="outline-none height-[2em] p-[1em] rounded-[10px] width-[100%]">
+
+    <div class="bg-white flex justify-center items-center flex-wrap p-[1em] rounded-[10px] gap-[1em] buttons">
+        <button type="button" onclick="add()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Add With</button>
+        <button type="button" onclick="subtract()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Subtract With</button>
+        <button type="button" onclick="multiply()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Multiply With</button>
+        <button type="button" onclick="divide()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Divide By</button>
+        <button type="button" onclick="factor()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Find Factors</button>
+        <button type="button" onclick="square()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Find Square</button>
+        <button type="button" onclick="squareRoot()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Find Square Root</button>
+        <button type="button" onclick="cube()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Find Cube</button>
+        <button type="button" onclick="modulus()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Find Modulus</button>
+        <button type="button" onclick="table()" class="bg-[#5d68ba] rounded-[5px] p-[0.5em_1em] text-white">Generate Table</button>
+    </div>
+
+    <p class="width-[100%] text-center text-white pr-[1em] pl-[1em] pb-[1em]">Thanks For Visiting Regards! Muhammad Ahad &copy;</p>
+
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- javascript -->
+    <script src="./main.js"></script>
+</body>
+
+</html>

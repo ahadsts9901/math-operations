@@ -1,0 +1,27 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+.buttons>button {
+    width: 12em;
+}
+
+.buttons>button:hover,
+.buttons>button:active {
+    background-color: #7e87c6;
+}
+
+.buttons>button:focus {
+    box-shadow: 0em 0em 0.5em #7e87c6;
+}
+
+body {
+    justify-content: center;
+}
+
+@media only screen and (max-width:463px) {
+    body {
+        justify-content: right;
+    }
+}
